@@ -1,4 +1,5 @@
-# Express API Starter
+# Express API Starter TS
+### TypeScript fork of the Express API Starter repo
 
 Includes API Server utilities:
 
@@ -11,35 +12,33 @@ Includes API Server utilities:
 
 Development utilities:
 
-* [nodemon](https://www.npmjs.com/package/nodemon)
-  * nodemon is a tool that helps develop node.js based applications by automatically restarting the node application when file changes in the directory are detected.
+* [ts-node-dev](https://github.com/whitecolor/ts-node-dev)
+  * Tweaked version of node-dev that uses ts-node under the hood.
 * [eslint](https://www.npmjs.com/package/eslint)
   * ESLint is a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code.
-* [mocha](https://www.npmjs.com/package/mocha)
-  * ☕️ Simple, flexible, fun JavaScript test framework for Node.js & The Browser ☕️
-* [supertest](https://www.npmjs.com/package/supertest)
-  * HTTP assertions made easy via superagent.
+* [babel](https://github.com/babel/babel)
+  * The compiler for writing next generation JavaScript.
+* [typescript](https://github.com/microsoft/TypeScript)
+  * TypeScript is a language for application-scale JavaScript. 
+
 
 ## Setup
 
 ```
-npm install
+yarn
 ```
 
 ## Lint
 
 ```
-npm run lint
-```
-
-## Test
-
-```
-npm run test
+yarn lint
 ```
 
 ## Development
 
 ```
-npm run dev
+yarn dev
 ```
+
+
+Thanks to [w3cj](https://github.com/w3cj) for the original repo!
